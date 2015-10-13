@@ -1,0 +1,11 @@
+autoloaders:
+  DIW: %module%/src
+
+commands:
+   customCommands:
+       - DIW\Magento\Command\CMS\Block\DumpCommand
+       - DIW\Magento\Command\CMS\Block\ListCommand
+       - DIW\Magento\Command\CMS\Block\LoadCommand
+       - DIW\Magento\Command\CMS\Page\DumpCommand
+       - DIW\Magento\Command\CMS\Page\ListCommand
+       - DIW\Magento\Command\CMS\Page\LoadCommand

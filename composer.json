@@ -1,0 +1,26 @@
+{
+  "name": "diw/magerun-cms",
+  "type": "library",
+  "description": "CMS import/export commands for N98 MageRun",
+  "keywords": ["magerun"],
+  "homepage": "https://github.com/wpalmer/magerun-cms",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Will Palmer",
+      "email": "will@do-it-well.co.uk",
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "n98/magerun": "1.91.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "DIW": "src/"
+    }
+  }
+}
