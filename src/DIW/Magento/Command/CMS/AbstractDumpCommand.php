@@ -48,7 +48,7 @@ abstract class AbstractDumpCommand extends AbstractMagentoCommand
             if( $previous !== NULL ) $output->writeln($previous.',');
             $previous = json_encode($entry->getData());
           }
-          if( $previous !== NULL ) $output->writeln($previous.',');
+          if( $previous !== NULL ) $output->writeln($previous);
           $output->writeln(']');
         }
       }
