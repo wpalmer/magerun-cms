@@ -66,7 +66,7 @@ Examples
     {"page_id":"2","title":"My eCommerce Site","root_template":"homepage",...},
     ...
 
-**The same format can also be used to re-import a dumped page or block*
+**The same format can also be used to re-import a dumped page or block**
 
     $ magerun.phar cms:page:dump home > home.json
     ... edit home.json ...
